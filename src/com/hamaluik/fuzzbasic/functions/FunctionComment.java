@@ -1,7 +1,9 @@
 package com.hamaluik.fuzzbasic.functions;
 
-import com.hamalukk.fuzzbasic.util.Function;
-import com.hamalukk.fuzzbasic.util.FunctionInfo;
+import java.util.ArrayList;
+
+import com.hamaluik.fuzzbasic.util.Function;
+import com.hamaluik.fuzzbasic.util.FunctionInfo;
 
 @FunctionInfo(name = "#")
 public class FunctionComment implements Function {

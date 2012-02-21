@@ -9,5 +9,4 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface FunctionInfo {
 	public String name();
-	public int numberArgs() default 1;
 }
